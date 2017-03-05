@@ -96,6 +96,7 @@
 		4D8999ED1DC108FF00F7EE0A /* BNCXcode7Support.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8999EB1DC108FF00F7EE0A /* BNCXcode7Support.m */; };
 		4D8EE7A51E1F0A5D00B1F450 /* BNCCommerceEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8EE7A31E1F0A5D00B1F450 /* BNCCommerceEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D8EE7A61E1F0A5D00B1F450 /* BNCCommerceEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8EE7A41E1F0A5D00B1F450 /* BNCCommerceEvent.m */; };
+		4DB9A0F51E6A64C5004598A8 /* BNCError.Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9A0F41E6A64C5004598A8 /* BNCError.Test.m */; };
 		4DDC52621DCC08E700CFB737 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDC52611DCC08E700CFB737 /* iAd.framework */; };
 		54391A151BA249FA0061CB0F /* BranchCSSearchableItemAttributeSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 54391A131BA249FA0061CB0F /* BranchCSSearchableItemAttributeSet.h */; };
 		54391A161BA249FA0061CB0F /* BranchCSSearchableItemAttributeSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 54391A141BA249FA0061CB0F /* BranchCSSearchableItemAttributeSet.m */; };
@@ -218,6 +219,7 @@
 		4D8999EB1DC108FF00F7EE0A /* BNCXcode7Support.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCXcode7Support.m; sourceTree = "<group>"; };
 		4D8EE7A31E1F0A5D00B1F450 /* BNCCommerceEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCCommerceEvent.h; sourceTree = "<group>"; };
 		4D8EE7A41E1F0A5D00B1F450 /* BNCCommerceEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCCommerceEvent.m; sourceTree = "<group>"; };
+		4DB9A0F41E6A64C5004598A8 /* BNCError.Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNCError.Test.m; path = "Branch-SDK-Tests/BNCError.Test.m"; sourceTree = "<group>"; };
 		4DC351441DF0AFB300646A1D /* Simulate-FirstRun.xcappdata */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Simulate-FirstRun.xcappdata"; sourceTree = "<group>"; };
 		4DDC52611DCC08E700CFB737 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		54391A131BA249FA0061CB0F /* BranchCSSearchableItemAttributeSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BranchCSSearchableItemAttributeSet.h; sourceTree = "<group>"; };
@@ -408,6 +410,7 @@
 		670016571940F51400A9E103 = {
 			isa = PBXGroup;
 			children = (
+				4DB9A0F41E6A64C5004598A8 /* BNCError.Test.m */,
 				4DC351441DF0AFB300646A1D /* Simulate-FirstRun.xcappdata */,
 				670016BB1946309100A9E103 /* Branch-SDK */,
 				7E6B3B521AA42D0E005F45BF /* Branch-SDK-Tests */,
@@ -903,6 +906,7 @@
 				7E6B3B561AA42D0E005F45BF /* BranchSDKFunctionalityTests.m in Sources */,
 				4677EB511B3B384C00A13964 /* BranchInstallRequestTests.m in Sources */,
 				461019461AE551A500379A15 /* BranchNetworkScenarioTests.m in Sources */,
+				4DB9A0F51E6A64C5004598A8 /* BNCError.Test.m in Sources */,
 				46FD92BA1AE7E8F80012E78F /* BNCSystemObserverTests.m in Sources */,
 				4665AF281B28C1DE00184037 /* BranchLogoutRequestTests.m in Sources */,
 				46DC40781B2B549F00D2D203 /* BranchGetCreditHistoryRequestTests.m in Sources */,
