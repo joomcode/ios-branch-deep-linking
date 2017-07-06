@@ -69,7 +69,7 @@ static BNCDeviceInfo *bncDeviceInfo;
             self.country = [rawLocale substringWithRange:range];
         }
 
-    } else if (systemVersion < 10.0) {
+    } else if (systemVersion < 10.0 || ![NSLocale instancesRespondToSelector:@selector(countryCode)] || ![NSLocale instancesRespondToSelector:@selector(languageCode)]) {
 
         NSString *rawLanguage = [[NSLocale preferredLanguages] firstObject];
         NSDictionary *languageDictionary = [NSLocale componentsFromLocaleIdentifier:rawLanguage];
